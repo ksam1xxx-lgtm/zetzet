@@ -44,10 +44,10 @@ const Header = () => {
                         <img src={stastic} alt="" />
                         <p>Сравнить</p>
                     </div>
-                    <div className="bottom-header-block">
+                    {/* <div className="bottom-header-block">
                         <img src={stastic} alt="" />
                         <p>Сравнить</p>
-                    </div>
+                    </div> */}
                     <Link to="/card">
                     <div className="bottom-header-block">
                         <img src={stastic} alt="" />
