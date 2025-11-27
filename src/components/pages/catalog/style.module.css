@@ -1,0 +1,179 @@
+.body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.laptop {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.description {
+  text-align: start;
+  margin-left: 18px;
+  margin-top: 90px;
+}
+
+.parentPrice {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 18px;
+  margin-top: 50px;
+}
+
+.price {
+  font-size: 19px;
+}
+
+.mainPrice {
+  padding-bottom: 15px;
+}
+
+.basketBtn {
+  margin-left: 55px;
+  margin-top: 3px;
+  width: 50px;
+  height: 50px;
+  background-color: cadetblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9px;
+  border: 0 none;
+  cursor: pointer;
+}
+
+.oldPrice {
+  text-decoration: line-through;
+}
+
+.img {
+    width: 240px;
+    height: 200px;
+}
+
+.productCard {
+  background-color: white;
+  width: 240px;
+  height: 550px;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.parentBasket {
+  margin-left: 225px;
+}
+
+/*  */
+
+
+
+
+
+
+
+/*  */
+
+.filters {
+  display: flex;
+  height: 40px;
+  width: 100%;
+  gap: 8px;
+}
+
+.filterContainer {
+  display: flex;
+  justify-content: baseline;
+}
+
+.priceFilterContainer {
+  display: flex;
+}
+
+
+/*  */
+
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 16px;
+  padding: 10px 30px 10px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+
+select:hover {
+  border-color: cadetblue;
+
+}
+
+
+select:focus {
+  outline: none;
+  box-shadow: 0 0 0 1px cadetblue;
+}
+
+
+
+/* input {
+  width: 90px;
+  height: 40px;
+  border-radius: 9px;
+  border: 0 none;
+  margin-right: 5px;
+} */
+
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 16px;
+  padding: 10px 8px 10px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input:hover {
+  border-color: cadetblue;
+
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 0 1px cadetblue;
+}
+
+
+.applyBtn {
+    background-color: cadetblue;
+    color: #ffffff;
+    font-size: 16px;
+    width: 96px;
+    height: 40px;
+    border: solid 2px cadetblue;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.applyBtn:hover {
+    background-color: #ffffff;
+    color: cadetblue;
+}

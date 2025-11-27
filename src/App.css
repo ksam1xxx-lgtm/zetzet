@@ -1,38 +1,213 @@
-.App {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+/*  */
+
+/* .container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.containerMini {
+  width: 90%;
+  margin: 0 auto;
+} */
+
+/*  */
+
+.header {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.top-header {
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color:gray;
+}
+
+.location {
+  width: 200px;
+  align-items: center;
+  display: flex;
+}
+
+.location img {
+  width: 20px;
+  height: 20px;
+}
+
+.top-header-nav-bar {
+  display: flex;
+  gap: 50px; 
+}
+
+.top-header-phone {
+  margin-left: auto;
+}
+
+.bottom-header-catalog {
+  background-color:cadetblue;
+  border-radius: 10px;
+  width: 290px;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  display: flex;
+  align-items: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bottom-header-logo {
+  font-size: 42px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.bottom-header {
+  padding: 15px 0;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+}
+
+
+.catalog-button {
+  height: 45px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 15px;
+  display: flex;
+  background-color: aliceblue;
+  align-items: center;
+  cursor: pointer;
+}
+
+.bottom-header-search {
+  position: relative;       /* нужно для абсолютного позиционирования иконки */
+  width: 95%;
+  margin-left: 40px;
+}
+
+.bottom-header-search input {
+  width: 95%;
+  height: 60px;
+  border: none;
+  background-color: rgb(219, 229, 238);
+  padding: 0 0px 0 20px;   /* 👈 добавили отступ справа под иконку */
+  font-size: 20px;
+  border-radius: 15px;
+  outline: none;
+}
+
+.search-icon {
+  position: absolute;
+  right: 70px;              
+  top: 50%;
+  transform: translateY(-50%);
+  width: 22px;
+  height: 22px;
+  opacity: 0.7;
+  cursor: pointer;  
+}
+
+.bottom-header-blocks {
+  display: flex;
+}
+
+.bottom-header-block {
+  height: 70px;
+  width: 70px;
+  border-radius: 10px;
+  display: flex;              
+  flex-direction: column;     
+  align-items: center;        
+  justify-content: center;    
+  text-align: center;
+  gap: 8px;                   
+}
+
+.bottom-header-block img {
+  height: 25px;
+  width: 25px
+}
+
+.bottom-header-block p {
+  font-size: 14px;
+  margin: 0; /* убираем лишние отступы браузера */
+}
+
+.bottom-header-basket {
+  display: flex;
+}
+.bottom-header-counter {
+  margin-left: 2px;
+  width: 18px;
+  height: 18px;
+  background-color: cadetblue;
+  border-radius: 50px;
+}
+
+/* ------------ */
+
+.body {
+  background-color: white;
+  width: 250px;
+  height: 450px;
+  border-radius: 15px;
+}
+
+.laptop {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.description {
+  text-align: start;
+  margin-left: 18px;
+  margin-top: 90px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.parent-price {
+  display: flex;
+  margin-left: 18px;
+  margin-top: 50px;
+}
+
+.price {
+  font-size: 19px;
+}
+
+.main-price {
+  padding-bottom: 15px;
+}
+
+.basket-btn {
+  margin-left: 55px;
+  margin-top: 3px;
+  width: 50px;
+  height: 50px;
+  background-color: cadetblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9px;
+  border: 0 none;
+  cursor: pointer;
+}
+
+.old-price {
+  text-decoration: line-through;
 }

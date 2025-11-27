@@ -1,0 +1,112 @@
+
+.basketParentDiv {
+    /* width: 900px; */
+    /* height: 50px; */
+    background-color: #ffffff;
+    border-radius: 9px;
+    margin-left: 20px;
+    /* padding: 20px; */
+}
+
+.h3Basket {
+    padding:  15px 0 0 15px;
+}
+
+.productCard {
+    display: flex;
+    gap: 20px;
+    /* padding-right: 55px; */
+    margin-right: 10px;
+    justify-content: space-between;
+}
+
+.name {
+    margin-bottom: 15px;
+}
+
+.counter {
+    display: flex;
+    gap: 10px;
+    margin-left: 100px;
+}
+
+.minus {
+    height: 30px;
+    width: 30px;
+}
+
+.plus {
+    height: 30px;
+    width: 30px;
+}
+
+.mainPrice {
+    margin-left: 70px;
+    /* margin-right: 15px; */
+}
+
+.oldPrice {
+    text-decoration: line-through;
+    margin-left: 70px;
+    /* margin-right: 15px; */
+}
+
+/*  */
+
+.parentDiv {
+    display: flex;
+    margin:  0 auto;
+    width: 100%;
+}
+
+.panel {
+    width: 380px;
+    height: 300px;
+    background-color: white;
+    /* margin-left: 150px; */
+    margin-left: 35px;
+    border-radius: 9px;
+    padding-left: 18px;
+}
+
+.adress {
+    padding-top: 18px;
+    padding-bottom: 25px;
+}
+
+.items {
+    display: flex;
+    padding-bottom: 25px;
+    padding-right: 15px;
+    justify-content: space-between;
+}
+
+.result {
+    display: flex;
+    padding-bottom: 25px;
+    padding-right: 15px;
+    justify-content: space-between;
+}
+
+.orderBtn {
+    width: 350px;
+    height: 50px;
+    margin-bottom: 25px;
+    border-radius: 9px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: cadetblue;
+}
+
+.checkbox {
+    display: flex;
+    gap: 8px;
+}
+
+
+.imgs {
+    width: 220px;
+    height: 180px;
+}

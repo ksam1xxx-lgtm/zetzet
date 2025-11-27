@@ -1,0 +1,61 @@
+.homepage {
+    margin-top: 40px;
+    width: 100%;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.arrow_left_block {
+    width: 50px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.arrow_left_block img {
+    width: 50px;
+    transform: rotate(180deg);
+}
+
+.arrow_right_block {
+    width: 50px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.arrow_right_block img {
+    width: 50px;
+}
+
+.content {
+    width: 800px;
+}
+
+.content img {
+    width: 800px;
+    border-radius: 40px;
+}
+
+/*  */
+
+.dots {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.dot {
+    width: 15px;
+    height: 15px;
+    background-color: cadetblue;
+    border-radius: 100%;
+}
+
+/*  */
+
